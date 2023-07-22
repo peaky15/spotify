@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ysabeau+Infant&display=swap');
+
+body
+{
+    background-color: rgb(226, 223, 223);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img
+{
+    width: 40px;
+    padding: 0 5px;
+}
+
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem ;
+}
+.container
+{
+    min-height: 68vh;
+    background-color: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url(bg1.jpg);
+}
+.bottom
+{
+    position: sticky;
+    height: 12 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    
+    
+}
+
+.songinfo
+{
+    position: absolute;
+    left: 15vw;
+    font-family: 'Nunito', sans-serif;
+}
+
+.songinfo img{
+   opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.icons
+{
+    margin: 15px;
+    cursor: pointer;
+}
+
+
+#progressbar
+{
+  width: 70vw;
+  cursor: pointer;
+}
+
+.songitemcontainer
+{
+    margin-top: 70px;
+}
+
+.songItem
+{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.songItem img
+{
+    height: 30px;
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 30px;
+}
+
+.timestamp
+{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
